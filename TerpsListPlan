@@ -1,0 +1,30 @@
+- Register page:
+	- First name, last name, email, username, password
+		- Use Javascript/JQuery to verify that credentials are valid.
+			- Make sure email is a UMD email address.
+		- Use SQL to store credentials.
+		- Encrypt password. 
+- Front page for logged out users will be login page.
+- Login page:
+	- Username, password
+		- Use Javacsript/JQuery to verify credentials are valid.
+		- Use SQL to verify that credentials exist and match a user. 
+- Front logged in page:
+	- Shows all the products submitted by users.
+	- Removes product if product is removed.
+- Submit product page:
+	- Name of product.
+	- Picture of product.
+	- Description of product. 
+	- Price of product.
+	- Also stores email of the current user in order to show in the send email button. 
+	- Also store current username stored in session in order to allow use to remove item in the future if they choose to.
+- Remove product page:
+	- Accessed through personal front page.
+	- Select button to remove product, SQL checks if username that submitted the product matches the username trying to delete product. If it is, shows button and allows user to remove the item.
+- View product page:
+	- Display product name, picture, description and price.
+	- Display a send email to seller button which allows user to send email to seller.
+- Registered user:
+	- Buy items.
+	- Sell items.

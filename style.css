@@ -1,0 +1,117 @@
+#loginForm {
+	position:fixed;
+    margin: auto;
+    top: 24%;
+    left: 0;
+    right: 0;
+	width: 30em;
+	height: 20em;
+}
+
+#registerForm {
+	position:fixed;
+	margin:auto;
+	width: 40em;
+	height: 30em;
+	top: 24%;
+    left: 0;
+    right: 0;
+}
+
+#updateForm {
+	position:fixed;
+	margin:auto;
+	width: 40em;
+	height: 33em;
+	top: 24%;
+    left: 0;
+    right: 0;
+}
+
+#rightNavBar {
+	padding-right: 2em;
+	padding-top: .55em;
+}
+
+#mainContent {
+	position:fixed;
+	margin:auto;
+	top: 4em;
+    left: 5%;
+    right: 5%;
+    bottom: 1%;
+    overflow-y: scroll;
+}
+
+#single_post_content {
+	position:fixed;
+    margin: auto;
+    top: 6%;
+    left: 0;
+    right: 0;
+	width: 30em;
+	height: 22em;
+}
+
+#postingTitle {
+	min-width: 41em;
+	resize: horizontal;
+}
+
+#description {
+	resize: vertical;
+    overflow: auto;
+	margin: auto;
+	max-width: 64em;
+}
+
+#bottomForm {
+	width: 64em;
+	margin: auto;
+}
+
+#errorUpload {
+	margin: auto;
+	max-width: 64em
+}
+
+#stream_img {
+    width:300px;
+    height: auto;
+}
+
+#single_img {
+	width:500px;
+    height: auto;
+}
+
+#frontPanels {
+	width: 25em;
+	height: 25em;
+}
+
+#panelBody {
+	overflow-y: scroll;
+	min-height: 17em;
+}
+
+#panelContainer {
+	height: 27em;
+	overflow-y: scroll;
+	padding-top: 1em;
+}
+
+#rowContent {
+	max-width: 90em;
+	margin:auto;
+	padding-left: 2%;
+}
+
+a {
+	color: gray;
+}
+
+a:hover {
+	color: gray;
+    text-decoration: underline;
+}
